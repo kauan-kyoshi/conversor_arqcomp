@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    
+}
+h1{
+    color: rgb(19, 18, 18);
+    font-family: "Poppins", sans-serif;
+}
+
+h3 {
+    color: rgb(19, 18, 18);
+    font-family: "Poppins", sans-serif;
+}
+
+#aga3{
+    background-color: beige;
+    border-color:  silver;
+    border-style: ridge ;
+    width: 20%;
+    border-radius: 15px;
+    opacity: 90%;
+}
+
+#fundo{
+    background-image: url('Captura de tela 2025-03-21 113031.png'); /* Substitua pelo seu link de imagem */
+    height: 100vh; /* Altura da seção */
+    background-attachment: fixed; /* Efeito parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+#titulo{
+    
+    background-color: beige;
+    border-color:  silver;
+    border-style: ridge ;
+    width: 25%;
+    border-radius: 15px;
+    opacity: 90%;
+}
+#demo2 {
+    background-color: crimson;
+}
+
+#demo3 {
+
+}
+
+#demo4 {
+
+}
