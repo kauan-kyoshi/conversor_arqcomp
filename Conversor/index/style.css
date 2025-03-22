@@ -7,40 +7,101 @@ h1{
     font-family: "Poppins", sans-serif;
 }
 
+h2{
+    color: rgb(19, 18, 18);
+    font-family: "Poppins", sans-serif;
+}
+
 h3 {
     color: rgb(19, 18, 18);
     font-family: "Poppins", sans-serif;
 }
 
-#aga3{
+input {
+    width: 70%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    border: 2px solid #ccc; /* Borda */
+    border-radius: 5px; /* Cantos arredondados */
+    outline: none; /* Remove o contorno ao focar */
+    margin: auto;
+}
+
+input:focus {
+    border-color: #007BFF; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra ao focar */
+}
+
+button {
+    background-color: #15ff00; /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para um ponteiro */
+    transition: background-color 0.3s ease; /* Transição suave */
+    margin: auto;
+}
+
+button:hover {
+    background-color: #0e6d05 /* Cor de fundo ao passar o mouse */
+}
+
+button:active {
+    background-color: #82f078c7; /* Cor de fundo ao clicar */
+}
+
+button:focus {
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: 0 0 10px rgba(251, 252, 252, 0.5); /* Sombra ao focar */
+}
+
+.placas{
     background-color: beige;
     border-color:  silver;
     border-style: ridge ;
-    width: 20%;
     border-radius: 15px;
     opacity: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+    margin: auto;
+}
+
+.result{
+    background-color: beige;    
+    border: 10px ridge silver;
+    border-radius: 15px;
+    opacity: 90%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+    margin: auto;
+    width: 100%;
 }
 
 #fundo{
-    background-image: url('Captura de tela 2025-03-21 113031.png'); /* Substitua pelo seu link de imagem */
-    height: 100vh; /* Altura da seção */
-    background-attachment: fixed; /* Efeito parallax */
+    background-image: url('Captura de tela 2025-03-21 113031.png');
+    height: 100vh;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
-}
-#titulo{
+    opacity: 1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
     
-    background-color: beige;
-    border-color:  silver;
-    border-style: ridge ;
-    width: 25%;
-    border-radius: 15px;
-    opacity: 90%;
 }
+
+
+
 #demo2 {
-    background-color: crimson;
+    
 }
 
 #demo3 {

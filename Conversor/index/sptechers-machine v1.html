@@ -14,34 +14,40 @@
 </head>
 
 <body>
-    <center>
-        <div id="fundo">
-            <div id="titulo">
-                <h1>Conversor </h1>
-            </div>
-            <div id="aga3">
-                <h3>Digite um número decimal:</h3>
 
-            </div>
-            <input id="demo1" type="text" placeholder="Ex: 42">
-            <br><br>
-            
-            <button onclick="converter() ">Converter</button>
-            
-            <h3>Resultados:</h3>
+    <div id="fundo">
+        <div id="titulo" class="placas">
+            <h1>Conversor Universal</h1>
+        </div>
+        <div id="aga3" class="placas">
+            <h3>Digite um número decimal:</h3>
+
+        </div>
+        <input id="demo1" type="text" placeholder="Ex: 42">
+
+
+        <button onclick="converter() ">Converter</button>
+
+        <div id="aga2" class="result">
+            <h2>Resultados:</h2>
+        </div>
+
+        <div id="resultados" class="result">
             <p>Octal:
-                <div id="demo2"></div>
+            <div id="demo2"></div>
             </p>
             <p>Hexadecimal:
-                <div id="demo3"></div>
+            <div id="demo3"></div>
             </p>
             <p>Binário:
-                <div id="demo4"></div>
+            <div id="demo4"></div>
             </p>
         </div>
-        </center>
-        
+
+    </div>
+
+
 </body>
-<script src="script.js" ></script>
+<script src="script.js"></script>
 
 </html>
