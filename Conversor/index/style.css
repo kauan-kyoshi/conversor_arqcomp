@@ -1,6 +1,8 @@
 body {
     background-color: black;
     font-family: "Poppins", sans-serif;
+    margin: 15px;
+    
 }
 h1{
     color: rgb(19, 18, 18);
@@ -19,6 +21,7 @@ h3 {
     color: rgb(19, 18, 18);
     font-family: "Poppins", sans-serif;
 }
+
 
 
 input {
@@ -41,7 +44,8 @@ input:focus {
         background-color: #15ff00; /* Cor de fundo */
         color: rgb(0, 0, 0); /* Cor do texto */
         padding: 10px 20px; /* Espaçamento interno */
-        border: none; /* Remove a borda */
+        border: aliceblue 3px ; /* Remove a borda */
+        border-style: ridge;
         border-radius: 5px; /* Cantos arredondados */
         font-size: 16px; /* Tamanho da fonte */
         cursor: pointer; /* Muda o cursor para um ponteiro */
@@ -86,12 +90,12 @@ input:focus {
     padding-bottom: 1%;
     margin: auto;
     width: 100%;
-    z-index: 1;
+
 }
 
 #fundo{
     background-image: url('MATRIX.png');
-    height: 100vh;
+    height:2000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,20 +103,51 @@ input:focus {
     opacity: 1;
     display: grid;
     justify-content: center;
-    align-items: center;
-    padding: 2px;
+
+    gap: 1px;
     
 }
 
 #calc{
     visibility: hidden;
 }
-
+.calc{
+    height: 350px;
+    background-color: beige;
+    border: 7px;
+    border-color:  silver;
+    border-style: ridge ;
+    border-radius: 15px;
+    opacity: 90%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding:auto;
+    margin: auto;
+}
 .soun{
     display: flex;
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
     align-items: center;
 }
+.base{
+    
+    justify-content: center;
+    align-items: center;
+    
+}
 
+select {
+    width: 200px;          /* Define a largura do select */
+    padding: 8px;          /* Adiciona um espaço interno (dentro do select) */
+    font-size: 16px;       /* Define o tamanho da fonte */
+    border: 2px solid #ccc; /* Borda do select */
+    border-radius: 4px;    /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Cor de fundo */
+    color: #333;           /* Cor do texto */
+}
 
+    select:hover {
+    border-color: #00ff4c;  /* Cor da borda ao passar o mouse */
+}

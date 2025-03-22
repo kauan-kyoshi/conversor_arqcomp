@@ -20,18 +20,15 @@
         <div id="titulo" class="placas">
             <h1>O Caminho da Luz</h1>
         </div>
+
         <div id="aga3" class="placas">
-            <h3>Digite um número decimal:</h3>
-
+            <h3>Digite um número decimal para converter:</h3>
         </div>
-        <input id="demo1" type="text" placeholder="0">
 
+        <input id="demo1" type="text" placeholder="0">
 
         <button onclick="converter()" class="conv">Converter</button>
 
-        <div id="aga2" class="placas">
-            <h2>Resultados:</h2>
-        </div>
 
         <div id="resultados" class="result">
             <p>Octal:
@@ -45,17 +42,41 @@
             </p>
         </div>
         <div class="placas">
-            <p>
-                Deseja calcular??
-            </p>
+            <h3>
+                <u>
+                    Deseja calcular??
+                </u>
+            </h3>
         </div>
         <div class="soun">
             <button onclick="sim()" class="conv">Sim</button>
             <button onclick="nao()" class="conv">Não</button>
         </div>
         
-        <div id="calc" class="placas">
-            
+        <div id="calc" class="calc">
+            <div id="base" class="base">
+                <label for="base"><u>Selecione uma Base:</u></label>
+                <select id="Base">
+                    <option value="hex">HexaDecimal</option>
+                    <option value="oct">Octal</option>
+                    <option value="bin">Binario</option>
+                    
+                </select>
+            </div>
+
+            <input type="text" placeholder="Digite o primeiro numero" id="numero_1">
+            <input type="text" placeholder="Digite o segundo numero" id="numero_2">
+
+            <h2>
+                <u>
+                    Escolha a operação desejada:
+                </u>
+            </h2>
+
+            <button onclick="soma()">Soma</button>
+            <button onclick="sub()">Subtrair</button>
+            <button onclick="div()">Dividir</button>
+            <button onclick="mult()">Multiplicar</button>
         </div>
 
     </div>
