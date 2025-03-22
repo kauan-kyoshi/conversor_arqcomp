@@ -103,7 +103,6 @@ input:focus {
     opacity: 1;
     display: grid;
     justify-content: center;
-
     gap: 1px;
     
 }
