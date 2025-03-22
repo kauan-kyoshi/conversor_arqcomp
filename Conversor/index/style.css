@@ -1,12 +1,15 @@
 body {
     background-color: black;
-    
+    font-family: "Poppins", sans-serif;
 }
 h1{
     color: rgb(19, 18, 18);
     font-family: "Poppins", sans-serif;
+    
 }
-
+#titulo:hover{
+    box-shadow: 0 0 150px rgb(242, 245, 245);
+}
 h2{
     color: rgb(19, 18, 18);
     font-family: "Poppins", sans-serif;
@@ -16,6 +19,7 @@ h3 {
     color: rgb(19, 18, 18);
     font-family: "Poppins", sans-serif;
 }
+
 
 input {
     width: 70%; /* Largura total */
@@ -32,33 +36,34 @@ input:focus {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra ao focar */
 }
 
-button {
-    background-color: #15ff00; /* Cor de fundo */
-    color: rgb(0, 0, 0); /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Cantos arredondados */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para um ponteiro */
-    transition: background-color 0.3s ease; /* Transição suave */
-    margin: auto;
-}
 
-button:hover {
+.conv{
+        background-color: #15ff00; /* Cor de fundo */
+        color: rgb(0, 0, 0); /* Cor do texto */
+        padding: 10px 20px; /* Espaçamento interno */
+        border: none; /* Remove a borda */
+        border-radius: 5px; /* Cantos arredondados */
+        font-size: 16px; /* Tamanho da fonte */
+        cursor: pointer; /* Muda o cursor para um ponteiro */
+        transition: background-color 0.3s ease; /* Transição suave */
+        margin: auto;
+}
+.conv:hover {
     background-color: #0e6d05 /* Cor de fundo ao passar o mouse */
 }
-
-button:active {
+.conv:active {
     background-color: #82f078c7; /* Cor de fundo ao clicar */
 }
-
-button:focus {
+.conv:focus {
     outline: none; /* Remove o contorno ao focar */
     box-shadow: 0 0 10px rgba(251, 252, 252, 0.5); /* Sombra ao focar */
 }
 
+
+
 .placas{
     background-color: beige;
+    border: 7px;
     border-color:  silver;
     border-style: ridge ;
     border-radius: 15px;
@@ -66,7 +71,7 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1%;
+    padding:auto;
     margin: auto;
 }
 
@@ -81,10 +86,11 @@ button:focus {
     padding-bottom: 1%;
     margin: auto;
     width: 100%;
+    z-index: 1;
 }
 
 #fundo{
-    background-image: url('Captura de tela 2025-03-21 113031.png');
+    background-image: url('MATRIX.png');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -94,20 +100,19 @@ button:focus {
     display: grid;
     justify-content: center;
     align-items: center;
-    padding: auto;
+    padding: 2px;
     
 }
 
-
-
-#demo2 {
-    
+#calc{
+    visibility: hidden;
 }
 
-#demo3 {
-
+.soun{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
-#demo4 {
 
-}
