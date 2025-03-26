@@ -27,7 +27,7 @@ function nao() {
     }
 }
 
-function calulo(opecacao) {
+function calulo(operacao) {
     var baseElement = document.getElementById('Base');
     var base = baseElement.value;
     var num1 = document.getElementById('numero_1').value;
@@ -38,24 +38,24 @@ function calulo(opecacao) {
         
     }
 
-    var radix;
+    var tipo_base;
     switch (base) {
         case 'hex':
-            radix = 16;
+            tipo_base = 16;
             break;
         case 'oct':
-            radix = 8;
+            tipo_base = 8;
             break;
         case 'bin':
-            radix = 2;
+            tipo_base = 2;
             break;
         default:
             alert('Base inválida.');
             
     }
 
-    var dec1 = parseInt(num1, radix);
-    var dec2 = parseInt(num2, radix);
+    var dec1 = parseInt(num1, tipo_base);
+    var dec2 = parseInt(num2, tipo_base);
 
     if (isNaN(dec1) || isNaN(dec2)) {
         alert("Números inválidos para a base selecionada.");
@@ -63,7 +63,7 @@ function calulo(opecacao) {
     }
 
     var result;
-    switch (opecacao) {
+    switch (operacao) {
         case 'soma':
             result = dec1 + dec2;
             break;
@@ -93,7 +93,7 @@ function calulo(opecacao) {
     } else if (base === 'bin') {
         resultado = Math.floor(result).toString(2);
     }
-
+    
     document.getElementById('resposta').innerHTML = resultado;
 }
 
