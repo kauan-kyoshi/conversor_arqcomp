@@ -42,7 +42,7 @@ function soma(){
         alert("Por favor, digite um número válido.");
         
     }else if (isNaN(global_numero_1) || isNaN(global_numero_2)){
-        alert("Por favor, digite um número válido.");
+        alert("Por favor, Digite um número válido.");
     }else{
         if(base.value == 'hex'){
             dec_1 = parseInt(global_numero_1);
