@@ -151,10 +151,6 @@ select {
     border-color: #00ff4c;  /* Cor da borda ao passar o mouse */
 }
 
-#resp{
-    visibility: hidden;
-}
-
-.resp{
-
+.resposta{
+    
 }
