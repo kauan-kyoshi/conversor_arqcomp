@@ -18,7 +18,6 @@ function sim() {
 }
 
 function nao() {
-<<<<<<< HEAD
     alert(`Esse não é o caminho da luz 
         Bye ;-; `);
     try {
@@ -26,14 +25,6 @@ function nao() {
     } catch (erro) {
         console.error(`Erro: ${erro.message}`)
     }
-=======
-    alert(`Esse não é o caminho da luz`);
-            try {
-                window.close();
-            } catch (erro) {
-                console.error(`Erro: ${erro.message}`) 
-            }
->>>>>>> 921de7fa4fa7895bda03bc0ad9a550246a30b9ba
 }
 
 function calulo(opecacao) {
@@ -45,24 +36,6 @@ function calulo(opecacao) {
     if (num1 === '' || num2 === '') {
         alert("Por favor, digite números válidos.");
         
-<<<<<<< HEAD
-=======
-    }else if (isNaN(global_numero_1) || isNaN(global_numero_2)){
-        alert("Por favor, Digite um número válido.");
-    }else{
-        if(base.value == 'hex'){
-            dec_1 = parseInt(global_numero_1);
-            dec_2 = parseInt(global_numero_2);
-
-            res= dec_1 + dec_2;
-            resp.innerHTML= resp.toString(16)
-            document.getElementById('calc').style.visibility = 'visible';
-        }else if(base.value =='oct'){
-
-        }else if(base.value == 'bin'){
-            
-        }
->>>>>>> 921de7fa4fa7895bda03bc0ad9a550246a30b9ba
     }
 
     var radix;
