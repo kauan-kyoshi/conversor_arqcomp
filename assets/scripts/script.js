@@ -18,8 +18,7 @@ function sim() {
 }
 
 function nao() {
-    alert(`Esse não é o caminho da luz 
-        Bye ;-; `);
+    alert(`Esse não é o caminho da luz`);
             try {
                 window.close();
             } catch (erro) {
